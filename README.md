@@ -1,5 +1,3 @@
-# string_approximation
-
 # Porównanie sekwencyjnych i równoległych algorytmów kalkulujących odległośc między tekstami
 
 Praca ma na celu porównanie wydajności różnych algorytmów kalkulujących odległości między dwoma łańcuchami znaków. Pod uwagę brane są obliczenia sekwencyjne jak i równoległe, a głównymi algorytmami dla odległości tekstów będą metody Levensteina oraz Needlemana-Wunscha. Są to metody wykorzystywane w bioinformatyce do wyliczania podobieństwa między sekwencjami nukleotydowymi oraz aminokwasowymi. 
