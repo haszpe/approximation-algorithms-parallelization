@@ -1,41 +1,21 @@
-# Porównanie sekwencyjnych i równoległych algorytmów kalkulujących odległośc między tekstami
+# Porównanie sekwencyjnych i równoległych algorytmów przyrównujących sekwencje genomowe
+# Comparison of sequence and parallel algorithms of genome sequence matching
 
-Praca ma na celu porównanie wydajności różnych algorytmów kalkulujących odległości między dwoma łańcuchami znaków. 
-Pod uwagę brane są obliczenia sekwencyjne jak i równoległe, a głównymi algorytmami dla odległości tekstów będą metody 
-Levensteina oraz Needlemana-Wunscha. Są to metody wykorzystywane w bioinformatyce do wyliczania podobieństwa między 
-sekwencjami nukleotydowymi oraz aminokwasowymi. 
+Praca ma na celu weryfikację podatności tradycyjnych algorytmów przyrównyjących sekwencje na zrównoleglenie oraz konfrontacje ich sekwencyjncyh implementacji z ich zrównoleglonymi odpowiednikami, ze szczególnym uwzględnieniem zmian w złożoności czasowej i obliczeniowej.
 
-
-## Gen vtc1
-
-Praca ma na celu wyliczenie podobieństwa miedzy sekwencjami genomowymi, dlatego też, obliczenia będą wykonywane 
-na rzeczywistym przykładzie jakim jest gen vtc1. Został on bardzo dobrze zsekwencjonowany a informacje na jego 
-temat są ogólnodostępne, gdyż pochodzi on z rośliny Arabidopsis Thaliana, która jest rośliną modelową w badaniach 
-genomu roślinnego. Gen ten koduje informacje o GDP-mannozopirofosforylazie, która jest glikozylotransferazą typu 
-Leloir'a, i stanowi ważny element wielu szlaków metabolicznych w organizmie roślin, w tym syntezy kwasu askrobinowego 
-czy modyfikacji potranslacynej organicznych związków chemicznych ( O-glikozylacja, N-glikozylacja oraz tworzenie 
-kotwic glikozylofosfatydyloinozytowoych). 
+The aim of the thesis was to verify the suitability of traditional sequence alignment algorithms for parallelization and to compare their sequential implementations with their parallel counterparts, focusing on observed changes in time and computational complexity.
 
 
-## Metodologia
-
-
-### Test-driven-development
-#### Kryteria testów
-#### Platformy i programy wykonujące obliczenia
-
-
-### Biblioteki i pakiety
-#### Unittest
-#### Pandas i numpy
-#### Einsum - for matrix's to speed-up
-#### Joblib - for parallel calculations
-
-
-### Algorytmy obliczeniowe
+### Algorytmy
 #### Levenstein
 #### Needleman - Wunsch
 #### K-differences
 
-### Wizualizaca danych
-#### Opis pliku wynikowego
+### Implementacjie
+- Algorytm odległości edycyjnej klasyczny - sekwencyjny
+- Algorytm Needlemana-Wunscha - sekwencyjny
+- Algorytm Smitha-Watermana - sekwencyjny
+- Algorytm odległości edycyjnej słownikowy - sekwencyjny, podatny na zrównoleglenie
+- Algorytm odległosci edycyjnej słownikowy - zrównoleglony
+- Algorytm Needlemana-Wunscha - zrównoleglony
+- Algorytm Smitha-Watermana - zrównoleglony
