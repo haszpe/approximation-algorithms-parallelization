@@ -7,9 +7,9 @@ The aim of the thesis was to verify the suitability of traditional sequence alig
 
 
 ### Algorytmy
-#### Levenstein
-#### Needleman - Wunsch
-#### K-differences
+- Levenstein
+- Needleman - Wunsch
+- Smith-Waterman
 
 ### Implementacjie
 - Algorytm odległości edycyjnej klasyczny - sekwencyjny
