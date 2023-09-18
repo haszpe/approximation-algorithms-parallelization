@@ -16,6 +16,7 @@ The aim of the thesis was to verify the suitability of traditional sequence alig
 - Algorytm Needlemana-Wunscha - sekwencyjny
 - Algorytm Smitha-Watermana - sekwencyjny
 - Algorytm odległości edycyjnej słownikowy - sekwencyjny, podatny na zrównoleglenie
+- Rat Race - przedstawienie zasady działania zrównoleglania na przykładzie wyścigu
 - Algorytm odległosci edycyjnej słownikowy - zrównoleglony
 - Algorytm Needlemana-Wunscha - zrównoleglony
 - Algorytm Smitha-Watermana - zrównoleglony
