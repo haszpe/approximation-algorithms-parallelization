@@ -11,7 +11,7 @@ The aim of the thesis was to verify the suitability of traditional sequence alig
 - Needleman - Wunsch
 - Smith-Waterman
 
-### Implementacjie
+### Implementacje
 - Algorytm odległości edycyjnej klasyczny - sekwencyjny
 - Algorytm Needlemana-Wunscha - sekwencyjny
 - Algorytm Smitha-Watermana - sekwencyjny
